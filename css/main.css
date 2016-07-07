@@ -49,3 +49,19 @@ body{
 .medium-6 h6, h1, p{
 	font-family: 'Lato', sans-serif;
 }
+
+/*Image Slider*/
+
+/*Text Section*/
+.text{
+	width: 100%;
+	height: 600px;
+	text-align: center;
+	color: #000000;
+	background-color: #FFFFFF;
+	padding: 160px 0 0 0;
+	font-size: 29px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:lighter;
+}
+
