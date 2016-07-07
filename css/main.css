@@ -65,3 +65,47 @@ body{
 	font-weight:lighter;
 }
 
+/*Footer*/
+.foot{
+	height: 380px;
+	width: 100%;
+	text-align: center;
+	background-color: #FFED00;
+	color: #000000;
+	padding: 140px 0 0 0;
+	font-family: 'Open Sans', sans-serif
+}
+
+.foot ul{
+	overflow: hidden;
+	padding: 0;
+	display: inline-block;
+	text-align: center;
+}
+
+.foot ul li{
+	display: inline-block;
+	padding: 20px;
+}
+
+.foot h3{
+	font-family: 'Lora', serif;
+	font-size: 42px;
+	font-weight: bold;
+
+}
+
+.foot h3:hover{
+	color: #676000;
+}
+
+.foot h6{
+	letter-spacing: 2px;
+	font-weight: lighter;
+}
+
+.foot ul{
+	padding: 60px 0 0 0;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif
+}
