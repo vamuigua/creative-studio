@@ -33,3 +33,19 @@ body{
 	height: 500px;
 	padding: 140px 0 0 0;
 }
+
+/*Print Digital Section*/
+.row{
+	width: 100%
+	height:500px;
+
+}
+
+.medium-6{
+	height: 600px;
+	text-align: center;
+} 
+
+.medium-6 h6, h1, p{
+	font-family: 'Lora', serif;
+}
