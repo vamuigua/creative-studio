@@ -19,6 +19,11 @@ body{
 .title-bar-right ul li{
 	display: inline-block;
 	padding: 20px;
+	-webkit-transition: max-height 0.4s;
+	-ms-transition: max-height 0.4s;
+	-moz-transition: max-height 0.4s;
+	-o-transition: max-height 0.4s;
+	transition: max-height 0.4s;
 }
 
 .title-bar-right li:hover{
@@ -119,4 +124,32 @@ body{
 .foot li:hover{
 	cursor:pointer;
 	color: #676000;
+}
+
+.handle{
+	width: 100%;
+	background-color: #FFED00;
+	box-sizing: border-box;
+	cursor: pointer;
+	padding: 10px 15px;
+	display: none;
+	text-align: center;
+}
+
+/*Media Query*/
+@media screen and (max-width: 516px){
+	nav ul{
+		max-height: 0;
+	}
+	.showing{
+		max-height: 20em;
+	}
+	nav ul li a{
+		box-sizing: border-box;
+		width: 100%
+		padding:10px 15px;
+	}
+	.handle{
+		display: block;
+	}
 }
