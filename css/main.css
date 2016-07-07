@@ -21,6 +21,11 @@ body{
 	padding: 20px;
 }
 
+.title-bar-right li:hover{
+	cursor:pointer;
+	color: #676000;
+}
+
 /*Intro Section*/
 .intro{
 	font-family: 'Lora', serif;
